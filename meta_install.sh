@@ -4,9 +4,6 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt autoremove -y
 
-sudo apt-get update && sudo apt-get install wget git curl net-tools build-essential make -y
-wget -c https://golang.org/dl/go1.17.5.linux-amd64.tar.gz
-rm -rf /usr/local/go && tar -C /usr/local -xzf go1.17.5.linux-amd64.tar.gz
 echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.profile
 echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
 echo 'export PANDO_HOME=/usr/local/go/src/github.com/pandotoken/pando' >> ~/.bashrc
