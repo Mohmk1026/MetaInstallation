@@ -14,7 +14,3 @@ rm -rf /usr/local/go/src/github.com/pandotoken/pandonet/node/db/main/*
 rm -rf /usr/local/go/src/github.com/pandotoken/pandonet/node/db/ref/*
 rm -rf /usr/local/go/src/github.com/pandotoken/pandonet/node/db/peer_table/*
 
-cd /usr/local/go/src/github.com/pandotoken/pando
-make install
-
-/usr/local/go/bin/pando start --config=../pandonet/node
