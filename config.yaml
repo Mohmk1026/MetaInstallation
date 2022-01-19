@@ -4,7 +4,7 @@ genesis:
 p2p:
   port: 12000
   seeds: 47.250.49.21:12000,47.254.194.189:12000,47.254.197.228:12000,47.254.230.208:12000
-  seedPeerOnlyOutbound: true
+  seedPeerOnlyOutbound: false
   address: 127.0.0.1
 log:
   levels: "*:info,guardian:debug"
